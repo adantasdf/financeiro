@@ -1,0 +1,7 @@
+# Cria o .gitignore
+cat << 'EOF' > .gitignore
+.venv/
+__pycache__/
+*.pyc
+.streamlit/
+EOF
